@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://compe.malainey.com/categories/</loc>
+    <loc>http://compe.malainey.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://compe.malainey.com/</loc>
+    <loc>http://compe.malainey.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://compe.malainey.com/tags/</loc>
+    <loc>http://compe.malainey.com/tags/</loc>
     <priority>0</priority>
   </url>
   
