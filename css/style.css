@@ -70,16 +70,16 @@ p {
   border: 2px solid #69c2c8;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #56bac1 !important;
-  border-color: #56bac1 !important;
+  background: #0f2909 !important;
+  border-color: #0f2909 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #69c2c8;
-  border: 2px solid #69c2c8;
+  color: #0f2909;
+  border: 2px solid #0f2909;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #69c2c8;
+  background: #0f2909;
   color: #fff;
 }
 
