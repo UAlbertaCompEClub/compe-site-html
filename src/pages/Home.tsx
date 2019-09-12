@@ -1,6 +1,8 @@
 import React, { ReactElement } from "react";
 import { makeStyles, Theme } from "@material-ui/core/styles";
+
 import Button from "@material-ui/core/Button";
+import Typography from "@material-ui/core/Typography";
 
 import CompElogo from "./../img/logo-white-small.png";
 import BackgroundImage from "./../img/blurred-hardware.jpg";
@@ -18,6 +20,9 @@ const useStyles = makeStyles((theme: Theme) => ({
   button: {
     margin: theme.spacing(1),
     textTransform: "none"
+  },
+  title: {
+    color: "white"
   }
 }));
 
@@ -27,7 +32,9 @@ const Home: React.FC = (): ReactElement => {
   return (
     <div id="home" className={classes.page}>
       <img src={CompElogo} alt="CompE logo" />
-      <h1>Computer Engineering Club</h1>
+      <Typography variant="h1" gutterBottom className={classes.title}>
+        Computer Engineering Club
+      </Typography>
       <span>Hardware, Software, and everything in between!</span>
       <Button variant="outlined" className={classes.button}>
         Learn More
