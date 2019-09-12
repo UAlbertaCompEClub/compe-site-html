@@ -4,7 +4,11 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { createMuiTheme, responsiveFontSizes } from "@material-ui/core/styles";
 import { ThemeProvider } from "@material-ui/styles";
 
-let theme = createMuiTheme();
+let theme = createMuiTheme({
+  palette: {
+    type: "dark"
+  }
+});
 theme = responsiveFontSizes(theme);
 
 const Home = React.lazy(() => import("./pages/Home"));

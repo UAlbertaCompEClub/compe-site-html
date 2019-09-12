@@ -32,10 +32,22 @@ const Home: React.FC = (): ReactElement => {
   return (
     <div id="home" className={classes.page}>
       <img src={CompElogo} alt="CompE logo" />
-      <Typography variant="h1" gutterBottom className={classes.title}>
+      <Typography
+        variant="h1"
+        gutterBottom
+        color="inherit"
+        className={classes.title}
+      >
         Computer Engineering Club
       </Typography>
-      <span>Hardware, Software, and everything in between!</span>
+      <Typography
+        variant="h6"
+        gutterBottom
+        color="inherit"
+        className={classes.title}
+      >
+        Hardware, Software, and everything in between!
+      </Typography>
       <Button variant="outlined" className={classes.button}>
         Learn More
       </Button>
