@@ -10,15 +10,12 @@ const useStyles = makeStyles((theme: Theme) => ({
   }
 }));
 
-const Announcements: React.FC = (): ReactElement => {
+const Events: React.FC = (): ReactElement => {
   const classes = useStyles();
   return (
-    <div id="announcements">
-      <div>#todo create an easy way for other people to make posts here</div>
-      <Button variant="outlined" className={classes.button}>
-        Learn More
-      </Button>
+    <div id="events">
+      <h2>Upcoming Events</h2>
     </div>
   );
 };
-export default Announcements;
+export default Events;

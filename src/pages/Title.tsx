@@ -14,8 +14,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     width: "100%",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-    position: "fixed"
+    backgroundSize: "cover"
   },
   button: {
     margin: theme.spacing(1),
@@ -26,7 +25,7 @@ const useStyles = makeStyles((theme: Theme) => ({
   }
 }));
 
-const Home: React.FC = (): ReactElement => {
+const Title: React.FC = (): ReactElement => {
   const classes = useStyles();
 
   return (
@@ -54,4 +53,4 @@ const Home: React.FC = (): ReactElement => {
     </div>
   );
 };
-export default Home;
+export default Title;
