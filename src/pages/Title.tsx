@@ -6,6 +6,7 @@ import Typography from "@material-ui/core/Typography";
 
 import CompElogo from "./../img/logo-white-small.png";
 import BackgroundImage from "./../img/blurred-hardware.jpg";
+import { Grid } from "@material-ui/core";
 
 const useStyles = makeStyles((theme: Theme) => ({
   page: {
@@ -30,15 +31,21 @@ const Title: React.FC = (): ReactElement => {
 
   return (
     <div id="home" className={classes.page}>
-      <img src={CompElogo} alt="CompE logo" />
-      <Typography
-        variant="h1"
-        gutterBottom
-        color="inherit"
-        className={classes.title}
-      >
-        Computer Engineering Club
-      </Typography>
+      <Grid container direction="row" alignItems="center">
+        <Grid item>
+          <img src={CompElogo} alt="CompE logo" />
+        </Grid>
+        <Grid item>
+          <Typography
+            variant="h1"
+            gutterBottom
+            color="inherit"
+            className={classes.title}
+          >
+            Computer Engineering Club
+          </Typography>
+        </Grid>
+      </Grid>
       <Typography
         variant="h6"
         gutterBottom
