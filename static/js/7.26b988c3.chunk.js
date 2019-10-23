@@ -1,0 +1,2 @@
+(this["webpackJsonpcompe-site-html"]=this["webpackJsonpcompe-site-html"]||[]).push([[7],{72:function(t,e,n){"use strict";n.r(e);var c=n(0),i=n.n(c),s=n(68),a=Object(s.a)((function(t){return{button:{margin:t.spacing(1),textTransform:"none"}}}));e.default=function(){a();return i.a.createElement("div",{id:"events"},i.a.createElement("h2",null,"Upcoming Events"))}}}]);
+//# sourceMappingURL=7.26b988c3.chunk.js.map

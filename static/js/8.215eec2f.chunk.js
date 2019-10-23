@@ -1,0 +1,2 @@
+(this["webpackJsonpcompe-site-html"]=this["webpackJsonpcompe-site-html"]||[]).push([[8],{71:function(t,e,i){"use strict";i.r(e);var n=i(0),s=i.n(n);e.default=function(){return s.a.createElement("div",{id:"information"},"WE CODE THINGS")}}}]);
+//# sourceMappingURL=8.215eec2f.chunk.js.map
