@@ -25,7 +25,6 @@ const useStyles = makeStyles((theme: Theme) => ({
   },
   title: {
     color: "white",
-    padding: 20,
     textAlign: "center"
   },
   subtitle: {
@@ -49,7 +48,6 @@ const Title: React.FC = (): ReactElement => {
           <Grid item>
             <Typography
               variant="h1"
-              gutterBottom
               color="inherit"
               className={classes.title}
             >
